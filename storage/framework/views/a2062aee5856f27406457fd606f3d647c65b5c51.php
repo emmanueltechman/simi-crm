@@ -1,0 +1,1 @@
+<p>Sorry, no threads.</p><?php /**PATH D:\server8\htdocs\rose_5\5.files_to_upload\resources\views/focus/messenger/partials/no-threads.blade.php ENDPATH**/ ?>
