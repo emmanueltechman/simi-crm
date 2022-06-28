@@ -97,7 +97,7 @@ return [
                 'pusher_app_key' => 'max:50',
                 'pusher_app_secret' => 'max:50',
                 'user_email' => 'required|email|max:100',
-                'purchase_code' => 'required|string|max:100',
+                //'purchase_code' => 'required|string|max:100',
             ],
         ],
     ],

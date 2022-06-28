@@ -587,7 +587,7 @@
                     @endif
                 </div>
 
-                <div class="form-group {{ $errors->has('purchase_code') ? ' has-error ' : '' }}">
+                {{-- <div class="form-group {{ $errors->has('purchase_code') ? ' has-error ' : '' }}">
                     <label for="database_hostname">
                         {{ trans('installer_messages.environment.wizard.form.purchase_code') }} <small>(To find your
                             purchase code please check your email from Envato or go to CodeCanyon > Downloads.)</small>
@@ -600,7 +600,7 @@
                             {{ $errors->first('purchase_code') }}
                         </span>
                     @endif
-                </div>
+                </div> --}}
 
 
                 <div class="buttons">

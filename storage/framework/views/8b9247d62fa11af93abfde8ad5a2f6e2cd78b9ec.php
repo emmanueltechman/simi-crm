@@ -647,21 +647,7 @@
                     <?php endif; ?>
                 </div>
 
-                <div class="form-group <?php echo e($errors->has('purchase_code') ? ' has-error ' : ''); ?>">
-                    <label for="database_hostname">
-                        <?php echo e(trans('installer_messages.environment.wizard.form.purchase_code')); ?> <small>(To find your
-                            purchase code please check your email from Envato or go to CodeCanyon > Downloads.)</small>
-                    </label>
-                    <input type="text" name="purchase_code" id="purchase_code" value=""
-                           placeholder="<?php echo e(trans('installer_messages.environment.wizard.form.purchase_code')); ?>"/>
-                    <?php if($errors->has('purchase_code')): ?>
-                        <span class="error-block">
-                            <i class="fa fa-fw fa-exclamation-triangle" aria-hidden="true"></i>
-                            <?php echo e($errors->first('purchase_code')); ?>
-
-                        </span>
-                    <?php endif; ?>
-                </div>
+                <!-- <div> Purchase code </div> -->
 
 
                 <div class="buttons">
